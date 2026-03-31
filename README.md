@@ -57,3 +57,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## penjelasan kode program
+Pada pertemuan ke-4 ini, dilakukan penambahan fitur login pada website menggunakan Laravel. Fitur ini digunakan untuk mengamankan akses, sehingga hanya user yang memiliki akun yang bisa masuk ke dalam sistem. Prosesnya dimulai dari pembuatan form login menggunakan Blade, kemudian user mengisi username dan password yang akan dikirim ke controller Laravel untuk dicek ke database MySQL. Jika data sesuai, sistem akan membuat session dan mengarahkan user ke halaman utama, sedangkan jika tidak sesuai akan menampilkan pesan error. Selain itu, juga ditambahkan fitur remember me agar data login bisa disimpan sementara melalui cookie. Dengan adanya fitur ini, akses ke halaman tertentu bisa dibatasi hanya untuk user yang sudah login.
+
